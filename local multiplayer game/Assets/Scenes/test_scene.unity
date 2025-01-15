@@ -334,10 +334,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player1: {fileID: 1363793117}
-  player2: {fileID: 1363793117}
+  player2: {fileID: 1330413810}
   movespeed: 10
   jumpforce: 10
-  isgrounded: 1
+  isGrounded: 1
 --- !u!61 &1330413812
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -511,10 +511,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player1: {fileID: 1363793117}
-  player2: {fileID: 1363793117}
+  player2: {fileID: 1330413810}
   movespeed: 10
   jumpforce: 10
-  isgrounded: 1
+  isGrounded: 1
 --- !u!61 &1363793119
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -574,7 +574,7 @@ GameObject:
   - component: {fileID: 1422417047}
   m_Layer: 0
   m_Name: Tilemap
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

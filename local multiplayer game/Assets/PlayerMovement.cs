@@ -7,8 +7,8 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D player1;
     public Rigidbody2D player2;
 
-    public float movespeed = 10f;
-    public float jumpforce = 7f;
+    public float movespeed = 10f; // Beweegsnelheid van de spelers
+    public float jumpforce = 7f;  // Jumpkracht van de spelers
     public bool isGroundedP1 = true; // Grounded voor player 1
     public bool isGroundedP2 = true; // Grounded voor player 2
 

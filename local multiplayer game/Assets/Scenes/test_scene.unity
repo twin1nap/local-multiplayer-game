@@ -734,7 +734,7 @@ MonoBehaviour:
   player1: {fileID: 1363793117}
   player2: {fileID: 1330413810}
   movespeed: 10
-  jumpforce: 10
+  jumpforce: 7
   isGroundedP1: 1
   isGroundedP2: 1
 --- !u!61 &1330413812
@@ -911,7 +911,7 @@ MonoBehaviour:
   player1: {fileID: 1363793117}
   player2: {fileID: 1330413810}
   movespeed: 10
-  jumpforce: 10
+  jumpforce: 7
   isGroundedP1: 1
   isGroundedP2: 1
 --- !u!61 &1363793119
@@ -1291,7 +1291,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.802559
+  orthographic size: 4.6194153
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1333,7 +1333,7 @@ GameObject:
   - component: {fileID: 1831287459}
   - component: {fileID: 1831287458}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: PauseMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1361,7 +1361,7 @@ Transform:
   m_GameObject: {fileID: 1831287457}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.2, y: 2.13, z: -9.918907}
+  m_LocalPosition: {x: -25.47, y: 1.53, z: -9.918907}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

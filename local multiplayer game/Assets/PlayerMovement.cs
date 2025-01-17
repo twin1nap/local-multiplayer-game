@@ -45,12 +45,12 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.collider.CompareTag("Ground"))
         {
-            if (collision.gameObject == player1.gameObject)
+            if (gameObject == player1.gameObject)
             {
                 isGroundedP1 = true;
             }
 
-            if (collision.gameObject == player2.gameObject)
+            if (gameObject == player2.gameObject)
             {
 
                 isGroundedP2 = true;
@@ -63,11 +63,11 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.collider.CompareTag("Ground"))
         {
-            if (collision.gameObject == player1.gameObject)
+            if (gameObject == player1.gameObject)
             {
                 isGroundedP1 = false;
 
-                if (collision.gameObject == player2.gameObject)
+                if (gameObject == player2.gameObject)
                 {
                     isGroundedP2 = false;
                 }
